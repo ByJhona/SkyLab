@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*{
+    font-family: "Nunito";
+    line-height: 90%;
+    color: #433939;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(20, 177, 211, 1);
+}
+
+nav{
+    position: relative;
+    font-weight: 700;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 550px;
+
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 33px;
+}
+
+header li a{
+    text-decoration: none;
+}
+
+nav button{
+    color: white;
+    background: none;
+    border-color: white;
+    margin-left: 100px;
+    
+}
+
+button{
+    font: inherit;
+    font-family: "Nunito";
+    padding: .3rem 2rem;
+    border-radius: 5em;
+    
+}
+
+header p{
+    width: 550px;
+    font-size: 24px;
+    margin-left: 10vw;
+    margin-top: 5px;
+}
+
+header p button{
+    border: none;
+    background-color: #76FF6A;
+    color:  #433939;
+    width: 278px;
+    height: 47px;
+    margin-top: 9px;
+}
+
+#promocional{
+    width: 530px;
+    height: 500px;
+    position: absolute;
+    top: 8vh;
+    right: 120px;
+}
+
+h1{
+    color: white;
+    width: 550px;
+    font-size: 64px;
+    margin-top: 120px;
+    margin-left: 10vw;
+}
+.tecnicas{
+    max-width: 1200px;
+    margin: auto;
+    padding: 9px;
+    background-color: tomato;
+    text-align: center;
+}
+.tecnicas h2{
+    margin-top: 1rem;
+    font-size: 36px;
+}
+.modificado{
+    font-size: 4rem;
+    margin: 110px;
+    padding: auto;
+}
+
+
+.tecnicas i span{
+    display: inline;
+    font-size: 18px;
+}
+
+.modificado:first-of-type{
+    margin-left: 15px;
+}
+.modificado:last-of-type{
+    margin-right: 15px;
+}
