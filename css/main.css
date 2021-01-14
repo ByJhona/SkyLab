@@ -90,32 +90,24 @@ h1{
     margin-top: 120px;
     margin-left: 10vw;
 }
-.tecnicas{
-    max-width: 1200px;
-    margin: auto;
-    padding: 9px;
-    background-color: tomato;
+.titulo{
+    margin: 2rem;
     text-align: center;
-}
-.tecnicas h2{
-    margin-top: 1rem;
     font-size: 36px;
 }
-.modificado{
-    font-size: 4rem;
-    margin: 110px;
-    padding: auto;
+.container-tecnicas{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
 }
 
-
-.tecnicas i span{
-    display: inline;
-    font-size: 18px;
+.content{
+    text-align: center;
+    display: inline-block;
+    padding-right: 7rem;
+    padding-top: 0;
 }
-
-.modificado:first-of-type{
-    margin-left: 15px;
-}
-.modificado:last-of-type{
-    margin-right: 15px;
+.item{
+    font-size: 64px;
+    padding-bottom: .5rem;
 }
