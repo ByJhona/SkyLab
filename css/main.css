@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 *{
     font-family: "Nunito";
-    line-height: 90%;
+    line-height: 110%;
     color: #433939;
     box-sizing: border-box;
     margin: 0;
@@ -59,7 +59,12 @@ button{
     
 }
 
-header p{
+.container-conteudo{
+    margin-top: -5rem;
+    
+}
+
+.container-conteudo p{
     width: 550px;
     font-size: 24px;
     margin-left: 10vw;
@@ -72,15 +77,15 @@ header p button{
     color:  #433939;
     width: 278px;
     height: 47px;
-    margin-top: 9px;
+    margin-top: 2rem;
 }
 
 #promocional{
-    width: 530px;
-    height: 500px;
+    width: 650px;
+    height: 600px;
     position: absolute;
     top: 8vh;
-    right: 120px;
+    right: 100px;
     z-index: 1;
 }
 
@@ -97,7 +102,7 @@ h1{
     background-color:white;
     border-radius: 50px 50px 0 0;
     margin: -2.5rem 0 50px 0;
-    padding-top: 80px;
+    padding: 10rem 0 5rem 0;
     
 }
 .titulo{
@@ -146,6 +151,7 @@ h1{
 
 .container-plataforma p{
     margin-left: -50px;
+    margin-top: 4rem;
     height: 200px;
     width: 300px;
     text-align: left;
@@ -168,22 +174,84 @@ h1{
     background-color: white;
 }
 
-.container-planos{
-    height: 900px;
+.cards-planos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
     border-radius: 50px 50px 0 0;
     margin-top: -25px;
+    background-color:#14B1D3;
+}
+
+.plano{
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    width: 400px;
+    height: 594px;
+    margin-bottom: -2rem;
+    background-color:#F5F5F5;
+}
+
+.plano:first-of-type{
+    margin-right: -20px;
+}
+.plano:last-of-type{
+    margin-left: -20px;
+}
+
+.preco-riscado{
+    text-decoration-line: line-through;
+    color: #C0C0C0;
+    font-size: 24px;
+}
+
+.preco-promocional-parcela{
+    font-size: 20px;
+    color: #626262;
+}
+
+.preco-promocional{
+    font-size: 32px;
+    color: #626262;
+}
+
+.plano ul li{
+    margin-left: 25px;
+    text-align: left;
+    
+}
+
+.plano button{
+    border-radius:0 0 25px 25px;
+    border: none;
+    margin-top: 194.5px;
+    padding: 60px 105.5px;
+    background: #8CEB84;
+
+    font-size: 32px;
+}
+.anual{
+    z-index: 1;
+    margin-top: -70px;
+    background-color: white;
+}
+.anual button{
+    background: #76FF6A;
+}
+.container-planos{
+    text-align: center;
     background-color: #14B1D3;
 }
 
-.planos{
-    display: flex;
-    flex-direction: column;
-    border-radius: 25px;
-    width: 399px;
-    height: 594px;
-    background-color: tomato;
+.container-planos > span{
+    color: red;
+    font-size: 12px;
 }
 
-.planos button{
-    align-items: baseline;
+.teste{
+    margin-top: 10rem;
+    padding-top: 10rem;
 }
