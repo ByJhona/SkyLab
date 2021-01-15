@@ -101,6 +101,7 @@ h1{
     
 }
 .titulo{
+    font-weight: 700;
     text-align: center;
     font-size: 36px;
     margin-bottom: 50px;
@@ -128,6 +129,34 @@ h1{
 }
 
 .container-plataforma{
-    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
     background-color: #D5F5FC;
+}
+
+.container-plataforma h2{
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    margin-left: -50px;
+    
+}
+
+.container-plataforma p{
+    margin-left: -50px;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    font-size: 18px;
+    color: #433939;
+    font-weight: 400;
+}
+
+.container-plataforma h2 p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #433939;
+    font-weight: 400;
 }
