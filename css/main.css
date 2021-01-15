@@ -136,9 +136,10 @@ h1{
 .container-plataforma{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     height: 600px;
     background-color: #D5F5FC;
+    padding: 100px 0 200px 0;
 }
 
 .container-plataforma h2{
@@ -244,14 +245,15 @@ h1{
 .container-planos{
     text-align: center;
     background-color: #14B1D3;
+    padding: 200px 0;
+    border-radius: 50px 50px 0 0;
 }
 
 .container-planos > span{
     color: red;
     font-size: 12px;
+    margin-bottom: 100px;
 }
-
-.teste{
-    margin-top: 10rem;
-    padding-top: 10rem;
+.container-planos > .titulo{
+    margin-top: 50px;
 }
