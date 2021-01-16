@@ -19,6 +19,7 @@ header{
     background-color: #14B1D3;
     height: 100px;
     padding: 25px 100px;
+    margin-bottom: 50px;
 }
 
 .logo{
@@ -66,6 +67,90 @@ header{
     font-weight: 700;
 }
 
-.titulo{
-    margin-top: 50px;
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+strong{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.inf-curso{
+    display: block;
+    text-align: center;
+    width: 433px;
+    height: 250px;
+
+    border-radius: 15px 0px 0px 15px;
+    padding: 30px;
+}
+
+
+.java{
+    background: #F2E900;
+}
+
+.html-css{
+    background: #E034B0;
+}
+
+.marketing-digital{
+    background-color: #E03434;
+}
+
+.cards-curso{
+    display: flex;
+    width: 1185px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 15px 0;
+
+}
+
+.inf-curso > i{
+    display: block;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.desc-curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 752px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 0 15px 15px 0;
+}
+
+.desc-curso button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 175px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #76FF6A;
+    font-size: 18px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.rodape{
+    background-color: #CBE9FF;
+    border-radius: 15px;
+
+    padding: 5px 30px;
+    margin: 50px;
+}
+
