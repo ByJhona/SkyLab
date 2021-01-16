@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans:700,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2D3037;
+    font-family: 'Martel Sans', sans-serif;;
+}
+section{
+    width: 99%;
+    margin: auto;
+    display: flex;
+}
+.container-textos__exercicios{
+    position: relative;
+    height: 1000px;
+    
+}
+
+
+.container-imagem{
+    background-color:#14B1D3;
+    position: fixed;
+    right: 0;
+    width: 70%;
+    height: 100vh;  
+    z-index: 6;
+    display: flex;
+    justify-content: flex-end;
+}
+.container-imagem iframe{
+    width: 100%;
+}
