@@ -14,9 +14,9 @@
         <nav>
             <ul>
                 <img src="img/logo.png" alt="Logo">
-                <li><a href="#início">Início</a></li>
-                <li><a href="#planos">Planos</a></li>
-                <li><a href="#oqueensinamos">O que ensinamos?</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#container-planos">Planos</a></li>
+                <li><a href="#container-plataforma">O que ensinamos?</a></li>
                 <button class="botao">Entrar</button>
             </ul>
             
@@ -56,8 +56,8 @@
         </section>
     </div>
 
-    <div class="container-plataforma">
-        <iframe width="800" height="450" src="https://www.youtube.com/embed/dbVQqcV9iEc" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="container-plataforma">
+        <iframe id="video-youtube" width="800" height="450" src="https://www.youtube.com/embed/dbVQqcV9iEc" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <div class="o-que-fazemos">
             <h2 class="titulo">A plataforma<br>de ensino que mais cresce no Brasil</h2>
@@ -65,23 +65,25 @@
                 Possuimos um time de<br>professores ultra capacitados<br>para melhor atender a<br>necessidade do aluno. Nos<br>assinando você poderá interagir<br>em tempo real com seu<br>professor em aulas ao vivo  via chat.
             </p>
         </div>
+        <i class="far fa-paper-plane"></i>
     </div>
 
     <div class="style">
 
     </div>
 <!-- -->
-    <div class="container-planos">
+    <div id="container-planos">
+        <h2 class="titulo">Planos</h2>
 
         <div class="cards-planos">
 
             <div class="plano semanal">
-                <h2 class="titulo">Genin<br>cybernetico</h2>
+                <h2 class="titulo">Semanal</h2>
                 <!-- Container que terá as informações do preço do plano -->
                 <div class="precos">
                     <span class="preco-riscado">De 10x R$ 12,99</span>
                     <br>
-                    <span class="preco-promocional-parcela">Por 10x de </span>
+                    <span class="preco-promocional-parcela">Por 10x</span>
                     <br>
                     <span class="preco-promocional">R$ 10,00</span>
                 </div>
@@ -91,16 +93,16 @@
                     <li>Aulas ao vivo para tirar dúvidas</li>
                     <li>Quadro de evolução</li>
                 </ul>
-                <button class="botao">Vamos nessa</button>
+                <button class="botao">Vamos nessa!</button>
             </div>
     
             <div class="plano anual">
-                <h2 class="titulo">Jonin da <br> programação</h2>
+                <h2 class="titulo">Anual</h2>
                 <!-- Container que terá as informações do preço do plano -->
                 <div class="precos">
                     <span class="preco-riscado">De 10x R$ 12,99</span>
                     <br>
-                    <span class="preco-promocional-parcela">Por 10x de </span>
+                    <span class="preco-promocional-parcela">Por 10x</span>
                     <br>
                     <span class="preco-promocional">R$ 10,00</span>
                 </div>
@@ -110,17 +112,17 @@
                     <li>Aulas ao vivo para tirar dúvidas</li>
                     <li>Quadro de evolução</li>
                 </ul>
-                <button class="botao">Vamos nessa</button>
+                <button class="botao">Vamos nessa!</button>
             </div>
     
     
             <div class="plano semestral">
-                <h2 class="titulo">Chūnin<br>Troiano</h2>
+                <h2 class="titulo">Semestral</h2>
                 <!-- Container que terá as informações do preço do plano -->
                 <div class="precos">
                     <span class="preco-riscado">De 10x R$ 12,99</span>
                     <br>
-                    <span class="preco-promocional-parcela">Por 10x de </span>
+                    <span class="preco-promocional-parcela">Por 10x</span>
                     <br>
                     <span class="preco-promocional">R$ 10,00</span>
                 </div>
@@ -130,7 +132,7 @@
                     <li>Aulas ao vivo para tirar dúvidas</li>
                     <li>Quadro de evolução</li>
                 </ul>
-                <button class="botao">Vamos nessa</button>
+                <button class="botao">Vamos nessa!</button>
             </div>
 
         </div>
@@ -138,9 +140,37 @@
         <span class="teste">* Todos os planos possuem renovação automatica</span>
         <h2 class="titulo">Receba um cupom de desconto com 10% off</h2>
 
+        <form action="" name="oferta-cupom" method="GET">
+            <input type="text" name="email" id="txt-email" placeholder="Seu e-mail aqui...">
+            <input type="submit" value="Quero desconto" id="bnt-enviar">
+        </form>
+    
+
     </div>
 
-    
+    <footer>
+        <div class="footer-cards">
+            <h2>LOGO</h2>
+            <h2>NOSSAS REDES</h2>
+            <div class="social-icons">
+                <a href="#facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="#instagram"><i class="fab fa-instagram-square"></i></a>
+                <a href="#youtube"><i class="fab fa-youtube-square"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-cards">
+            <h2>PARCEIROS</h2>
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="footer-cards contato-whatsapp">
+            <h2>FALE COM A GENTE</h2>
+            <a href="#whatsapp"><i class="fab fa-whatsapp"><span>Whatsapp</span></i></a>
+        </div>
+
+
+    </footer>
 
 </body>
 </html>

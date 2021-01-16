@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-*{
+*{  
     font-family: "Nunito";
-    line-height: 110%;
+    line-height: 140%;
     color: #433939;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 header{
@@ -14,7 +18,7 @@ header{
     color: white;
     font-size: 18px;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: rgba(20, 177, 211, 1);
 }
 
@@ -71,6 +75,10 @@ button{
     margin-top: 5px;
 }
 
+.container-conteudo h1{
+    line-height: 95%;
+}
+
 header p button{
     border: none;
     background-color: #76FF6A;
@@ -105,11 +113,15 @@ h1{
     padding: 10rem 0 5rem 0;
     
 }
+
+.container-tecnicas1 > .titulo{
+    padding-bottom: 90px;
+}
 .titulo{
     font-weight: 700;
     text-align: center;
     font-size: 36px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 .container-tecnicas{
     display: flex;
@@ -133,25 +145,26 @@ h1{
     padding-bottom: .5rem;
 }
 
-.container-plataforma{
+#container-plataforma{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    height: 600px;
+    height: 700px;
     background-color: #D5F5FC;
     padding: 100px 0 200px 0;
 }
 
-.container-plataforma h2{
+#container-plataforma h2{
     height: 100px;
     width: 300px;
     text-align: left;
-    margin-left: -50px;
+    margin-left: -200px;
+    line-height: 110%;
     
 }
 
-.container-plataforma p{
-    margin-left: -50px;
+#container-plataforma p{
+    margin-left: -200px;
     margin-top: 4rem;
     height: 200px;
     width: 300px;
@@ -159,9 +172,10 @@ h1{
     font-size: 18px;
     color: #433939;
     font-weight: 400;
+    line-height: 140%;
 }
 
-.container-plataforma h2 p{
+#container-plataforma h2 p{
     margin-top: 10px;
     font-size: 18px;
     color: #433939;
@@ -172,7 +186,7 @@ h1{
     border-radius: 50px 50px 0 0;
     height: 50px;
     margin-top: -50px;
-    background-color: white;
+    background-color:#fff;
 }
 
 .cards-planos{
@@ -184,6 +198,10 @@ h1{
     border-radius: 50px 50px 0 0;
     margin-top: -25px;
     background-color:#14B1D3;
+}
+
+.cards-planos > .titulo{
+    padding-bottom: 50px;
 }
 
 .plano{
@@ -224,12 +242,14 @@ h1{
     text-align: left;
     
 }
-
+.plano > .titulo{
+    margin: 50px 0;
+}
 .plano button{
     border-radius:0 0 25px 25px;
     border: none;
-    margin-top: 194.5px;
-    padding: 60px 105.5px;
+    margin-top: 0px;
+    padding: 60px 102.75px 60px 101px;
     background: #8CEB84;
 
     font-size: 32px;
@@ -239,21 +259,96 @@ h1{
     margin-top: -70px;
     background-color: white;
 }
+
 .anual button{
     background: #76FF6A;
 }
-.container-planos{
+#container-planos{
     text-align: center;
     background-color: #14B1D3;
-    padding: 200px 0;
+    padding: 40px 0;
     border-radius: 50px 50px 0 0;
 }
 
-.container-planos > span{
-    color: red;
+#container-planos > span{
+    color:#fff;
     font-size: 12px;
     margin-bottom: 100px;
 }
-.container-planos > .titulo{
-    margin-top: 50px;
+#container-planos > .titulo{
+    margin: 50px;
+}
+
+form{
+    display: inline-block;
+    text-align: center;
+    
+}
+#txt-email{
+    border-radius: 50px 0 0 50px;
+    width: 685px;
+    height: 50px;
+    font-size: 24px;
+    border: #1E85E4 solid 3px;
+    padding-left: 10px;
+}
+
+#bnt-enviar{
+    
+    height: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 0 50px 50px 0;
+    background-color: #FF7A00;
+    border: #1E85E4 solid 3px;
+    
+    padding: 0 50px;
+    margin-left: -9px;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1E85E4;
+    height: 200px;
+}
+
+.footer-cards{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer-cards h2, .footer-cards span, .footer-cards i{
+    color: #fff;
+}
+
+.footer-cards i{
+    font-size: 35px;
+}
+
+.footer-cards a{
+
+    margin: 50px 10px 0 0;
+}
+
+.contato-whatsapp i{
+    font-size: 1.2rem;
+}
+
+.fa-paper-plane{
+    position: absolute;
+    font-size: 500px;
+    color: #fff;
+    right: 100px;
+}
+
+.o-que-fazemos{
+    z-index: 1;
+}
+
+#video-youtube{
+    z-index: 1;
 }
