@@ -1,21 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Martel+Sans:700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.container-textos{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.textos__indicacao{
+    font-size: 5rem;
+    color:rgba(20, 177, 211, 0.3);
+    display: flex;
+    align-items: flex-start;
+    line-height: 7rem;
+    position: absolute;
+    z-index: -4;
+    font-weight: 900;
+}
+sup{
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    color:#14B1D3;
+}
+.textos__titulo{
+    font-size: 2rem;
+    line-height: 1.2em;
+    color: #272222;
+    font-weight: 900;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+hr{
+    margin: 50px 3rem 0 3rem;
+}
+
 body{
-    background-color: #2D3037;
-    font-family: 'Martel Sans', sans-serif;;
+    background-color: #fff;
+    font-family: "Nunito";
 }
 section{
-    width: 99%;
+    
     margin: auto;
     display: flex;
 }
 .container-textos__exercicios{
-    position: relative;
-    height: 1000px;
+    
+    width: 100%;
+    
+    margin-top: 50PX;
+    padding: 10px;
     
 }
 
@@ -29,7 +69,19 @@ section{
     z-index: 6;
     display: flex;
     justify-content: flex-end;
+
+    border-left:#14B1D3 solid 5px;
 }
 .container-imagem iframe{
+    
     width: 100%;
+}
+
+.links-uteis{
+    background-color: #CBE9FF;
+    border-radius: 15px;
+    
+    padding: 5px 35px;
+    margin: 1rem 0 0 0;
+    
 }
