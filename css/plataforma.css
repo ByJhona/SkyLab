@@ -22,6 +22,7 @@
     position: absolute;
     z-index: -4;
     font-weight: 900;
+    padding-left: 10px;
 }
 sup{
     font-size: 2.25rem;
@@ -88,4 +89,31 @@ section{
 
 p{
     text-indent:4em;
+    text-align: justify;
+}
+
+nav{
+    
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 30%;
+    background-color: #fff;
+    border-bottom: #CBE9FF solid 2px;
+}
+nav h1, nav i{
+    font-size: 18px;
+}
+h1{
+    margin-right: .5rem;
+}
+
+
+.bnt-voltar{
+    width: 15%;
+    height: 48px;
+    border: none;
+    background-color: #fff;
 }
