@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/cadastrar.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyLab | Login</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+        
+    </header>
+
+    <div class="container-conteudo">
+    <h2 class="titulo">Preencha com seus dados pessoais</h2>
+
+        <form action="" id="form-dados" method="GET">
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="txt" placeholder="Digite seu nome...">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="txt" placeholder="Digite seu e-mail...">
+            
+
+            <label for="nome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="txt" placeholder="Digite seu sobrenome...">
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="txt" placeholder="Digite sua senha...">
+            <!--
+
+            Essas seriam as linhas de codigos caso houvesse uma troque de informação entre paginas/servidor
+            <input type="submit"  name="entrar" id="bnt-entrar" value="Entrar">
+            <br>
+            <input type="submit" name="criar-conta" id="bnt-criar" value="Criar Conta">
+            -->
+            
+        </form>
+        
+        <h2 class="titulo">Qual plano deseja escolher?</h2>
+        
+
+        <form action="" id="form-planos">
+            <div class="cards-planos anual">
+                <input type="radio" name="plano" value="anual">
+                <span>Plano Anual</span><br>
+                <span class="preco">R$ 100,00</span>
+            </div>
+
+            <div class="cards-planos semestral">
+                <input type="radio" name="plano">
+                <span>Plano Semestral</span>
+                <span class="preco">R$ 60,00</span>
+            </div>
+
+            <div class="cards-planos semanal">
+                <input type="radio" name="plano">
+                <span>Plano Semanal</span>
+                <span class="preco">R$ 20,00</span>
+            </div>
+        
+
+        </form>
+
+        <a href="dashboard.html"><button class="bnt-criar">Criar Conta</button></a><br>
+
+        <div class="bnt-cancelar">
+            <script>
+                function goBack() {
+                    window.history.back()
+                }
+            </script>
+            <button class="bnt-cancelar" onclick="goBack()">Cancelar</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
