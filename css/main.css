@@ -47,15 +47,15 @@ header li a{
     text-decoration: none;
 }
 
-nav button{
+nav .botao{
     color: white;
     background: none;
     border: #fff solid 1px;
     margin-left: 50px;
-    
 }
 
-button{
+.botao{
+    text-decoration: none;
     font: inherit;
     font-family: "Nunito";
     padding: .3rem 2rem;
@@ -73,19 +73,23 @@ button{
     font-size: 24px;
     margin-left: 10vw;
     margin-top: 5px;
+    margin-bottom: 2rem;
 }
 
 .container-conteudo h1{
     line-height: 95%;
 }
 
-header p button{
+.container-conteudo .botao{
+    font-size: 24px;
     border: none;
-    background-color: #76FF6A;
-    color:  #433939;
+    background-color:rgb(161, 15, 47);
+    color: #fff;
+    font-weight: 700;
     width: 278px;
     height: 47px;
-    margin-top: 2rem;
+    margin-top: 30px;
+    margin-left: 8.4rem;
 }
 
 #promocional{
@@ -223,6 +227,10 @@ h1{
     margin-left: -20px;
 }
 
+.precos{
+    margin-bottom: 2rem;
+}
+
 .preco-riscado{
     text-decoration-line: line-through;
     color: #C0C0C0;
@@ -235,6 +243,7 @@ h1{
 }
 
 .preco-promocional{
+    margin-bottom: 1rem;
     font-size: 32px;
     color: #626262;
 }
@@ -356,6 +365,8 @@ footer{
 
 #video-youtube{
     z-index: 1;
-}footer img{
+}
+
+footer img{
     height: 200px;
 }
