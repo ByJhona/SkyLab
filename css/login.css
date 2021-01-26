@@ -62,7 +62,7 @@ label{
 }
 
 #bnt-entrar, #bnt-criar{
-    
+    cursor: pointer;
     display: inline-block;
     border-radius: 50px;
 

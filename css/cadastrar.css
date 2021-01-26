@@ -57,8 +57,8 @@ label{
     margin-top: 20px;
 }
 
-.bnt-criar, .bnt-cancelar{
-    
+.bnt-criar, .bnt-voltar{
+    cursor: pointer;
     display: inline-block;
     border-radius: 50px;
 
@@ -77,7 +77,7 @@ label{
     border: none;
 }
 
-.bnt-cancelar{
+.bnt-voltar{
     margin-top: 5px;
     background-color: #fff;
     border: none;

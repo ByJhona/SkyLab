@@ -99,6 +99,7 @@ nav .botao{
     top: 8vh;
     right: 100px;
     z-index: 1;
+    pointer-events: none;
 }
 
 h1{

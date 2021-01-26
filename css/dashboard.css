@@ -65,6 +65,7 @@ header{
     background-color: #76FF6A;
     border: none;
     font-weight: 700;
+    cursor: pointer;
 }
 
 main{
@@ -80,13 +81,15 @@ strong{
 }
 
 .inf-curso{
-    display: block;
+    display:flex;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 433px;
     height: 250px;
 
     border-radius: 15px 0px 0px 15px;
-    padding: 30px;
 }
 
 
@@ -132,7 +135,7 @@ strong{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    cursor: pointer;
     width: 175px;
     height: 25px;
     border-radius: 5px;
@@ -154,3 +157,8 @@ a{
     margin: 50px;
 }
 
+/*Funções HOVER*/
+
+.desc-curso button:hover{
+    background-color: #66d85b;
+}
