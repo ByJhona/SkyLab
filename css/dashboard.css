@@ -23,8 +23,9 @@ header{
 }
 
 .logo{
-    width: 120px;
-    height: 100px;
+    width: 130px;
+    height: 90px;
+    
     
 }
 
@@ -136,12 +137,13 @@ strong{
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
-    width: 175px;
+    width: 9rem;
     height: 25px;
     border-radius: 5px;
     background-color: #76FF6A;
     font-size: 18px;
     border: none;
+    padding: 0.5rem 1rem;
 }
 
 a{

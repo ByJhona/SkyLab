@@ -31,8 +31,8 @@ nav{
 
 nav ul img{
     float: left;
-    width: 120px;
-    height: 100px;
+    width: 130px;
+    height: 90px;
     margin-right: 550px;
 
 }
@@ -93,10 +93,10 @@ nav .botao{
 }
 
 #promocional{
-    width: 650px;
-    height: 600px;
+    width: 680px;
+    height: 560px;
     position: absolute;
-    top: 8vh;
+    top: 15vh;
     right: 100px;
     z-index: 1;
     pointer-events: none;
