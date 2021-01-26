@@ -200,7 +200,11 @@ h1{
     justify-content: center;
     height: 700px;
     border-radius: 50px 50px 0 0;
+    /*lixo
     margin-top: -25px;
+    */
+    margin-bottom: 3rem;
+
     background-color:#14B1D3;
 }
 
@@ -228,7 +232,7 @@ h1{
 }
 
 .precos{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .preco-riscado{
@@ -256,7 +260,7 @@ h1{
 .plano > .titulo{
     margin: 50px 0;
 }
-.plano button{
+.plano .botao{
     position: absolute;
     left: 0rem;
     bottom: 0rem;
@@ -274,7 +278,7 @@ h1{
     background-color: white;
 }
 
-.anual button{
+.anual .botao{
     background: #76FF6A;
 }
 #container-planos{
@@ -287,13 +291,15 @@ h1{
 #container-planos > span{
     color:#fff;
     font-size: 12px;
-    margin-bottom: 100px;
+    margin: 10rem;
 }
 #container-planos > .titulo{
-    margin: 1rem;
+    margin: 2rem;
 }
 
+
 form{
+    margin-bottom: 4rem;
     display: inline-block;
     text-align: center;
     
@@ -303,7 +309,7 @@ form{
     width: 685px;
     height: 50px;
     font-size: 24px;
-    border: #1E85E4 solid 3px;
+    border: none;
     padding-left: 10px;
 }
 
@@ -314,10 +320,10 @@ form{
     font-weight: 700;
     border-radius: 0 50px 50px 0;
     background-color: #FF7A00;
-    border: #1E85E4 solid 3px;
-    
+    border: none;
+    cursor: pointer;
     padding: 0 50px;
-    margin-left: -9px;
+    margin-left: -0.3rem;
 
 }
 
@@ -332,16 +338,19 @@ footer{
 .footer-cards{
     display: inline-block;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 900;
+}
+
+.social-icons a i{
+    color: rgb(221, 221, 221);
+    font-size: 35px;
 }
 
 .footer-cards h2, .footer-cards span, .footer-cards i{
     color: #fff;
 }
 
-.footer-cards i{
-    font-size: 35px;
-}
+
 
 .footer-cards a{
 
@@ -369,4 +378,28 @@ footer{
 
 footer img{
     height: 200px;
+}
+
+/*Transições para botões*/
+
+
+nav .botao:hover{
+    background-color: #fff;
+    color: rgba(20, 177, 211, 1);
+    transition: 0.5s;
+}
+
+.container-conteudo .botao:hover{
+    background-color: rgb(231, 83, 107);
+    color:rgb(161, 15, 47);
+    transition: 0.5s;
+}
+
+.plano .botao:hover{
+    background-color: rgb(58, 148, 81);
+    transition: 0.5s;
+}
+
+#bnt-enviar:hover{
+    background-color:  #d36600;
 }
