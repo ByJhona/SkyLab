@@ -24,30 +24,25 @@ header img{
 }
 
 .container-conteudo{
-    display: block;
     position: absolute;
-    width: 488px;
-    height: 450px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    padding: 60px 65px;
+    width: 900px;
+    height: 550px;
+    left: 17%;
+    top: 80px;
+    text-align: center;
+    padding: 50px 65px;
 
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 15px;
 
-    font-weight: 700;
-    text-align: center;
+    
     font-size: 15px;
 }
 
-.container-conteudo h2{
-    text-align: left;
-}
 
-#txt-email, #txt-senha{
+#txt{
     border-radius: 50px;
-    width: 350px;
+    width: 300px;
     height: 40px;
     border: #272222 solid 1px;
     padding-left: 10px;
@@ -62,12 +57,12 @@ label{
     margin-top: 20px;
 }
 
-#bnt-entrar, #bnt-criar{
+.bnt-criar, .bnt-voltar{
     cursor: pointer;
     display: inline-block;
     border-radius: 50px;
 
-    width: 100px;
+    width: 120px;
     height: 40px;
 
     font-weight: 700;
@@ -76,17 +71,45 @@ label{
 
 }
 
-#bnt-entrar{
+.bnt-criar{
     margin-top: 30px;
     background-color: #76FF6A;
     border: none;
 }
 
-#bnt-criar{
-    margin-top: 10px;
+.bnt-voltar{
+    margin-top: 5px;
     background-color: #fff;
     border: none;
-
     color: #76FF6A;
 }
 
+.cards-planos{
+    background-color: #CBE9FF;
+    border: #433939 solid 1px;
+    width: 150px;
+    height: 60px;
+
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#form-dados{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem 1rem 0 3rem;
+    
+    height: 200px;
+}
+
+
+#form-planos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin:20px 0 20px 0;
+    
+}

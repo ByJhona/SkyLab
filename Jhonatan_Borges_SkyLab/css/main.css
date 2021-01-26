@@ -31,16 +31,16 @@ nav{
 
 nav ul img{
     float: left;
-    width: 8.125rem;
-    height: 5.625rem;
+    width: 130px;
+    height: 90px;
     margin-right: 550px;
 
 }
 
 nav li{
     display: inline-block;
-    padding: 0.688rem;
-    margin-top: 2.063rem;
+    padding: 11px;
+    margin-top: 33px;
 }
 
 header li a{
@@ -50,8 +50,8 @@ header li a{
 nav .botao{
     color: white;
     background: none;
-    border: #fff solid 0.063rem;
-    margin-left: 3.125rem;
+    border: #fff solid 1px;
+    margin-left: 50px;
 }
 
 .botao{
@@ -69,10 +69,10 @@ nav .botao{
 }
 
 .container-conteudo p{
-    width: 34.375rem;
+    width: 550px;
     font-size: 24px;
     margin-left: 10vw;
-    margin-top: 0.313rems;
+    margin-top: 5px;
     margin-bottom: 2rem;
 }
 
@@ -86,18 +86,18 @@ nav .botao{
     background-color:rgb(161, 15, 47);
     color: #fff;
     font-weight: 700;
-    width: 17.375rem;
-    height: 2.938rem;
-    margin-top: 1.875rem;
+    width: 278px;
+    height: 47px;
+    margin-top: 30px;
     margin-left: 8.4rem;
 }
 
 #promocional{
-    width: 42.5rem;
-    height: 35rem;
+    width: 680px;
+    height: 560px;
     position: absolute;
     top: 15vh;
-    right: 1vh;
+    right: 100px;
     z-index: 1;
     pointer-events: none;
 }
@@ -199,8 +199,8 @@ h1{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 43.75rem;
-    border-radius: 3.125rem 3.125rem 0 0;
+    height: 700px;
+    border-radius: 50px 50px 0 0;
     /*lixo
     margin-top: -25px;
     */
@@ -270,7 +270,7 @@ h1{
     margin-top: 65px;
     padding: 60px 102.75px 60px 101px;
     background: #8CEB84;
-    width: 25rem;
+    width: 400px;
     font-size: 32px;
 }
 .anual{

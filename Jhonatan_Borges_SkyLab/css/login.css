@@ -28,9 +28,8 @@ header img{
     position: absolute;
     width: 488px;
     height: 450px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    left: 396px;
+    top: 130px;
     padding: 60px 65px;
 
     background: #FFFFFF;

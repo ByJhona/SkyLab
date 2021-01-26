@@ -27,8 +27,9 @@ header img{
     position: absolute;
     width: 900px;
     height: 550px;
-    left: 17%;
-    top: 80px;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%,-50%);
     text-align: center;
     padding: 50px 65px;
 
