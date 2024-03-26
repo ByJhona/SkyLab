@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*{  
+    font-family: "Nunito";
+    line-height: 140%;
+    color: #433939;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(20, 177, 211, 1);
+}
+
+nav{
+    position: relative;
+    font-weight: 700;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul img{
+    float: left;
+    width: 130px;
+    height: 90px;
+    margin-right: 550px;
+
+}
+
+nav li{
+    display: inline-block;
+    padding: 11px;
+    margin-top: 33px;
+}
+
+header li a{
+    text-decoration: none;
+}
+
+nav .botao{
+    color: white;
+    background: none;
+    border: #fff solid 1px;
+    margin-left: 50px;
+}
+
+.botao{
+    text-decoration: none;
+    font: inherit;
+    font-family: "Nunito";
+    padding: .3rem 2rem;
+    border-radius: 5em;
+    
+}
+
+.container-conteudo{
+    margin-top: -5rem;
+    
+}
+
+.container-conteudo p{
+    width: 550px;
+    font-size: 24px;
+    margin-left: 10vw;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+}
+
+.container-conteudo h1{
+    line-height: 95%;
+}
+
+.container-conteudo .botao{
+    font-size: 24px;
+    border: none;
+    background-color:rgb(161, 15, 47);
+    color: #fff;
+    font-weight: 700;
+    width: 278px;
+    height: 47px;
+    margin-top: 30px;
+    margin-left: 8.4rem;
+}
+
+#promocional{
+    width: 680px;
+    height: 560px;
+    position: absolute;
+    top: 15vh;
+    right: 100px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+h1{
+    color: white;
+    width: 550px;
+    font-size: 64px;
+    margin-top: 120px;
+    margin-left: 10vw;
+}
+
+.container-tecnicas1{
+    position: relative;
+    background-color:white;
+    border-radius: 50px 50px 0 0;
+    margin: -2.5rem 0 50px 0;
+    padding: 10rem 0 5rem 0;
+    
+}
+
+.container-tecnicas1 > .titulo{
+    padding-bottom: 90px;
+}
+.titulo{
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.container-tecnicas{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.content{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    padding-right: 7rem;
+    padding-top: 0;
+}
+.content:last-of-type{
+    padding-right: 0;
+}
+.item{
+    font-size: 64px;
+    padding-bottom: .5rem;
+}
+
+#container-plataforma{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 700px;
+    background-color: #D5F5FC;
+    padding: 100px 0 200px 0;
+}
+
+#container-plataforma h2{
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    margin-left: -200px;
+    line-height: 110%;
+    
+}
+
+#container-plataforma p{
+    margin-left: -200px;
+    margin-top: 4rem;
+    height: 200px;
+    width: 300px;
+    text-align: left;
+    font-size: 18px;
+    color: #433939;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+#container-plataforma h2 p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #433939;
+    font-weight: 400;
+}
+
+.style{
+    border-radius: 50px 50px 0 0;
+    height: 50px;
+    margin-top: -50px;
+    background-color:#fff;
+}
+
+.cards-planos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    border-radius: 50px 50px 0 0;
+    /*lixo
+    margin-top: -25px;
+    */
+    margin-bottom: 3rem;
+
+    background-color:#14B1D3;
+}
+
+.cards-planos > .titulo{
+    padding-bottom: 50px;
+}
+
+.plano{
+    position: relative;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    width: 400px;
+    height: 594px;
+    margin-bottom: -2rem;
+    background-color:#F5F5F5;
+    padding-left: 30px;
+}
+
+.plano:first-of-type{
+    margin-right: -20px;
+}
+.plano:last-of-type{
+    margin-left: -20px;
+}
+
+.precos{
+    margin-bottom: 3rem;
+}
+
+.preco-riscado{
+    text-decoration-line: line-through;
+    color: #C0C0C0;
+    font-size: 24px;
+}
+
+.preco-promocional-parcela{
+    font-size: 20px;
+    color: #626262;
+}
+
+.preco-promocional{
+    margin-bottom: 1rem;
+    font-size: 32px;
+    color: #626262;
+}
+
+.plano ul li{
+    margin-left: 25px;
+    text-align: left;
+    
+}
+.plano > .titulo{
+    margin: 50px 0;
+}
+.plano .botao{
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+    border-radius:0 0 25px 25px;
+    border: none;
+    margin-top: 65px;
+    padding: 60px 102.75px 60px 101px;
+    background: #8CEB84;
+    width: 400px;
+    font-size: 32px;
+}
+.anual{
+    z-index: 1;
+    margin-top: -70px;
+    background-color: white;
+}
+
+.anual .botao{
+    background: #76FF6A;
+}
+#container-planos{
+    text-align: center;
+    background-color: #14B1D3;
+    padding: 40px 0;
+    border-radius: 50px 50px 0 0;
+}
+
+#container-planos > span{
+    color:#fff;
+    font-size: 12px;
+    margin: 10rem;
+}
+#container-planos > .titulo{
+    margin: 2rem;
+}
+
+
+form{
+    margin-bottom: 4rem;
+    display: inline-block;
+    text-align: center;
+    
+}
+#txt-email{
+    border-radius: 50px 0 0 50px;
+    width: 685px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    padding-left: 10px;
+}
+
+#bnt-enviar{
+    
+    height: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 0 50px 50px 0;
+    background-color: #FF7A00;
+    border: none;
+    cursor: pointer;
+    padding: 0 50px;
+    margin-left: -0.3rem;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1E85E4;
+    height: 200px;
+}
+
+.footer-cards{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.social-icons a i{
+    color: rgb(221, 221, 221);
+    font-size: 35px;
+}
+
+.footer-cards h2, .footer-cards span, .footer-cards i{
+    color: #fff;
+}
+
+
+
+.footer-cards a{
+
+    margin: 50px 10px 0 0;
+}
+
+.contato-whatsapp i{
+    font-size: 1.2rem;
+}
+
+.fa-paper-plane{
+    position: absolute;
+    font-size: 500px;
+    color: #fff;
+    right: 100px;
+}
+
+.o-que-fazemos{
+    z-index: 1;
+}
+
+#video-youtube{
+    z-index: 1;
+}
+
+footer img{
+    height: 200px;
+}
+
+.parceiro{
+    width: 10rem;
+    height: 4rem;
+}
+
+/*Transições para botões*/
+
+
+nav .botao:hover{
+    background-color: #fff;
+    color: rgba(20, 177, 211, 1);
+    transition: 0.5s;
+}
+
+.container-conteudo .botao:hover{
+    background-color: rgb(231, 83, 107);
+    color:rgb(161, 15, 47);
+    transition: 0.5s;
+}
+
+.plano .botao:hover{
+    background-color: rgb(58, 148, 81);
+    transition: 0.5s;
+}
+
+#bnt-enviar:hover{
+    background-color:  #d36600;
+}
